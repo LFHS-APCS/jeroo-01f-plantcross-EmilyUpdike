@@ -20,3 +20,5 @@ public class Main implements Directions {
   Jeroo jeff = new Jeroo(0,0,EAST,100);
      jeff.plantCross();
 }
+
+    }
