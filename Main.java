@@ -18,18 +18,9 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
   Jeroo jeff = new Jeroo(0,0,EAST,100);
-  jeff.hopX6();
-  jeff.turn(RIGHT);
-  jeff.hopX3();
-  jeff.hopPlantX3RighthopPlantX3LefthopPlantX2Left();
-  jeff.hopPlantX3RighthopPlantX3LefthopPlantX2Left();
-  jeff.hopPlantX3();
-  jeff.turn(RIGHT);
-  jeff.hopPlantX3LefthopPlantX2LefthopPlantX3Right();
-  jeff.hopPlantX3();
-  jeff.turn(LEFT);
-  jeff.hopPlantX2();
-  jeff.hop();
+  jeff.plantCross();
+
+
 
 
 
