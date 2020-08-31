@@ -6,6 +6,18 @@ public class Jeroo extends JerooBase {
 
     
     public void plantCross() {
+  hopX6();
+  turn(RIGHT);
+  hopX3();
+  hopPlantX3RighthopPlantX3LefthopPlantX2Left();
+  hopPlantX3RighthopPlantX3LefthopPlantX2Left();
+  hopPlantX3();
+  turn(RIGHT);
+  hopPlantX3LefthopPlantX2LefthopPlantX3Right();
+  hopPlantX3();
+  turn(LEFT);
+  hopPlantX2();
+  hop();  
         
     }
     // Put any helpermethods here
@@ -16,7 +28,6 @@ public class Jeroo extends JerooBase {
   hop();
   hop();
   hop();
- 
 }
 
 public void hopX3(){
@@ -59,23 +70,6 @@ public void hopPlantX3LefthopPlantX2LefthopPlantX3Right(){
   turn(RIGHT);
 }
 
-public void plantCross(){
-  hopX6();
-  turn(RIGHT);
-  hopX3();
-  hopPlantX3RighthopPlantX3LefthopPlantX2Left();
-  hopPlantX3RighthopPlantX3LefthopPlantX2Left();
-  hopPlantX3();
-  turn(RIGHT);
-  hopPlantX3LefthopPlantX2LefthopPlantX3Right();
-  hopPlantX3();
-  turn(LEFT);
-  hopPlantX2();
-  hop();
-
-
-  
-}
     
     
     
